@@ -1,6 +1,6 @@
 # Big-Data
 
-## Flight Database Management System
+## Flight Booking and Journey Travel Planner Database
 
 ### Overview
 This repository contains code for managing a flight database system aimed at facilitating flight booking and travel planning. The database includes tables for flights, airlines, airports, aircraft, tickets, schedules, routes, and customers. Various SQL queries are provided to perform tasks such as retrieving flight information, calculating revenue, and analyzing punctuality.
