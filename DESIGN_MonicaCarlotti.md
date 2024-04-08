@@ -4,7 +4,7 @@ A Flight Booking and Travel Planning Database
 
 By Monica Carlotti
 
-Video overview: <[https://youtu.be/UJDSnx7R26s]
+Video overview: [https://youtu.be/UJDSnx7R26s]
 
 ## Scope
 Purpose: The purpose of the database is to facilitate flight booking and travel planning by providing comprehensive information about flights, airlines, airports, ticket prices, schedules, routes, and costumers.
@@ -198,14 +198,14 @@ The "flight_duration_trigger" ensures that flight durations in the "Schedules" t
 
 While the database schema presented herein offers a robust foundation for managing flight booking and travel planning, several limitations warrant consideration to ensure its adaptability, security, and scalability in real-world applications.
 
-Complexity in Representing Relationships: The schema captures essential relationships between entities such as flights, routes, and tickets. However, in real-world scenarios, these relationships can become more intricate, especially in scenarios involving many-to-many relationships or hierarchical structures. For example, a flight may have multiple routes or stops, and a ticket may be associated with multiple passengers. 
-Data Privacy and Security: The database schema does not include provisions for data privacy and security measures, such as encryption, access control, or data anonymization. Without adequate safeguards the database may be vulnerable to data breaches,
-Scalability: As the user base expands and the database workload increases, scalability challenges could impact database performance, response times, and overall system reliability. Scaling the database to handle growing demand while maintaining optimal performance would be challenging.
+* Complexity in Representing Relationships: The schema captures essential relationships between entities such as flights, routes, and tickets. However, in real-world scenarios, these relationships can become more intricate, especially in scenarios involving many-to-many relationships or hierarchical structures. For example, a flight may have multiple routes or stops, and a ticket may be associated with multiple passengers. 
+* Data Privacy and Security: The database schema does not include provisions for data privacy and security measures, such as encryption, access control, or data anonymization. Without adequate safeguards the database may be vulnerable to data breaches,
+* Scalability: As the user base expands and the database workload increases, scalability challenges could impact database performance, response times, and overall system reliability. Scaling the database to handle growing demand while maintaining optimal performance would be challenging.
 
-* There are certain limitations and scenarios this database might not represent well:
-Real-Time Updates: The database might struggle to handle real-time updates, especially in high-traffic scenarios where multiple users are simultaneously accessing and modifying flight information. 
-Internationalization: The schema does not account for internationalization requirements, such as supporting multiple languages, currencies, or date formats. In global travel scenarios, users from different regions may expect localized experiences tailored to their linguistic and cultural preferences. 
-Data Privacy and Security: The database schema does not explicitly address data privacy requirements, such as compliance with regulations like GDPR (General Data Protection Regulation).
-External Systems: The database may face challenges when integrating with external systems, such as airline reservation systems, third-party APIs due to variations in data formats, protocols etc. 
+There are certain limitations and scenarios this database might not represent well:
+* Real-Time Updates: The database might struggle to handle real-time updates, especially in high-traffic scenarios where multiple users are simultaneously accessing and modifying flight information. 
+* Internationalization: The schema does not account for internationalization requirements, such as supporting multiple languages, currencies, or date formats. In global travel scenarios, users from different regions may expect localized experiences tailored to their linguistic and cultural preferences. 
+* Data Privacy and Security: The database schema does not explicitly address data privacy requirements, such as compliance with regulations like GDPR (General Data Protection Regulation).
+* External Systems: The database may face challenges when integrating with external systems, such as airline reservation systems, third-party APIs due to variations in data formats, protocols etc. 
 
 Addressing these limitations may involve iterative refinement of the database schema, adoption of best practices in data management and security, and alignment with industry standards and regulations.
